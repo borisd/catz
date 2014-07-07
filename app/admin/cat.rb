@@ -1,4 +1,5 @@
 ActiveAdmin.register Cat do
+  permit_params :age, :name
 
   
   # See permitted parameters documentation:
